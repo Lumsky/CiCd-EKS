@@ -7,7 +7,7 @@ pipeline {
         IMAGE_REPO_NAME="my-image-repo"
         IMAGE_TAG= "${env.BUILD_ID}"
         REPOSITORY_URI = "273100463386.dkr.ecr.us-west-2.amazonaws.com/my-image-repo"
-    }
+    } 
     stages {
         
         stage('Build with maven') {
