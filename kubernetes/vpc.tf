@@ -1,6 +1,6 @@
 provider "aws" {
     profile = "pelumi"
-    region = "us-east-1"
+    region = "us-west-2"
 }
 
 variable vpc_cidr_block {}
