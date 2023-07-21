@@ -1,4 +1,5 @@
 provider "aws" {
+    profile = "pelumi"
     region = "us-east-1"
 }
 
